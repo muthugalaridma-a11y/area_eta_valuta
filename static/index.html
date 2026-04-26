@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Esercitazione FastAPI</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
+        .card { border: 2px solid #333; padding: 20px; margin: 10px; border-radius: 10px; width: 400px; background: #f9f9f9; }
+        input { margin-bottom: 10px; width: 90%; }
+        button { cursor: pointer; background: #007bff; color: white; border: none; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <h1>Hub Esercizi FastAPI</h1>
+
+    <div class="card">
+        <h3>1. Calcolo Area Rettangolo</h3>
+        <input type="number" id="base" placeholder="Base">
+        <input type="number" id="altezza" placeholder="Altezza">
+        <button id="btn-area">Calcola Area</button>
+        <p id="risposta-area"></p>
+    </div>
+
+    <div class="card">
+        <h3>2. Verifica Età</h3>
+        <input type="number" id="anno" placeholder="Anno di nascita">
+        <button id="btn-eta">Verifica</button>
+        <p id="risposta-eta"></p>
+    </div>
+
+    <div class="card">
+        <h3>3. Cambio Euro-Dollaro</h3>
+        <input type="number" id="euro" placeholder="Importo in Euro">
+        <button id="btn-valuta">Converti</button>
+        <p id="risposta-valuta"></p>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
